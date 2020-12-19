@@ -1,0 +1,99 @@
+* {
+  margin-block: auto;
+}
+
+body {
+    padding: 40;
+    margin: 10;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+
+  header {
+    background: #333;
+  } 
+
+  .navbar {
+    Margin: 0 auto;
+    padding: 10px;
+    min-width: 999px;
+    width:600px;
+    height: 80px;
+  }
+
+  .mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+   }
+
+ .mainbodycontainer {
+    margin: 0 auto;
+    overflow: auto;
+    background-color: rgb(250,250,250);
+    min-width: 999px;
+    padding: 0px 0;
+     background: url("https://img.sunset02.com/sites/default/files/styles/marquee_large_2x/public/image/2017/04/main/el-capitan-getty-0517.jpg?itok=vuJS4hXh") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 600px;
+    height: 450px;
+ }  
+
+  nav {
+    padding: 0;
+    margin: 3rem;
+    font-size: 30px;
+    line-height: 70%;
+    color: #658b83;
+    background: #3092aa;
+  }
+
+  ul {
+    padding: 80px;
+    float: right;
+    padding-left: 180px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+  a.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    }
+
+  a.button1:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+
+  @media all and (max-width:60em) {
+
+      a.button1 {
+        display: block;
+        margin: 0.4em auto;
+        }
+  }
+
+  li {
+    float: right !important;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    }
